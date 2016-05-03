@@ -6,14 +6,12 @@ public class Principal {
 
 		Calculadora calculadoraDoPedrinho = new Calculadora(); //"Instancia do objeto Calculadora
 		//começo do construtor(método que tem o mesmo nome da classe) " new esta invocando o constrotur
-
-
 		//calculadoraDoPedrinho.somar(20,60); //esta calculador esta invocando a propriedade soma da "Calculadora"
 		//int retornoCalculo = calculadoraDoPedrinho.somar(10,50);
 		//int retornoCalculoSegundaVez = calculadoraDoPedrinho.somar(20,10);
 		calculadoraDoPedrinho.somar(10,50);
 		calculadoraDoPedrinho.somar(20,10);
-		JOptionPane.showMessageDialog(null, calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma "0"
+		JOptionPane.showMessageDialog(null, calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
 
 	}
 }
