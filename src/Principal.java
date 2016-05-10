@@ -9,9 +9,21 @@ public class Principal {
 		//calculadoraDoPedrinho.somar(20,60); //esta calculador esta invocando a propriedade soma da "Calculadora"
 		//int retornoCalculo = calculadoraDoPedrinho.somar(10,50);
 		//int retornoCalculoSegundaVez = calculadoraDoPedrinho.somar(20,10);
-		calculadoraDoPedrinho.somar(10,50);
-		calculadoraDoPedrinho.somar(20,10);
-		JOptionPane.showMessageDialog(null, "O valor da Some é:" +calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
 
+		//calculadoraDoPedrinho.somar(10,50);
+		//calculadoraDoPedrinho.somar(20,10);
+		//JOptionPane.showMessageDialog(null, "O valor da Some é:" +calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
+//=======
+		//		calculadoraDoPedrinho.somar(10,50);
+		//		calculadoraDoPedrinho.somar(20,10);
+		//"Integer.parseInt" converte de String para inteiro.
+		int primeiroValor = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro valor:"));
+		int segundoValor = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo valor:"));
+		
+		JOptionPane.showMessageDialog(null, "O valor da Some é:" +calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
+		//>>>>>>> featureMultiplicar
+
+		calculadoraDoPedrinho.multiplicar(primeiroValor, segundoValor);
+		JOptionPane.showMessageDialog(null, calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
 	}
 }

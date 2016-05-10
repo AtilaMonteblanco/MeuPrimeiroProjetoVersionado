@@ -1,14 +1,12 @@
 
 public class Calculadora {
-
 	// private int ValorUm; //private porque só interessa para esta classe.
 	// private int ValorDois;//private porque só interessa para esta classe.
 	private int valor; // Acumulador para quardar valores anteriores para
 						// futuras operações.
-	// public(Metodo) porque vou usar estas informações na classe "Principal"
+	// public(Método) porque vou usar estas informações na classe "Principal"
 
-	public void somar(int ValorUm, int ValorDois) { // void é um metodo que não
-													// retorna nada
+	public void somar(int ValorUm, int ValorDois) {//Void é um metodo que nãoretorna nada
 		/*
 		 * this.ValorUm = ValorUm; // "this" valo de escopo da classe.
 		 * this.ValorDois = ValorDois; //No modo Debug clicando "F6" executa o
@@ -30,8 +28,8 @@ public class Calculadora {
 
 	}
 
-	public void multiplicar() {
-
+	public void multiplicar(int ValorUm, int ValorDois) {
+		this.valor = this.valor + (ValorUm * ValorDois);
 	}
 
 	public int getValor() {
