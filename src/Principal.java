@@ -11,7 +11,7 @@ public class Principal {
 		//int retornoCalculoSegundaVez = calculadoraDoPedrinho.somar(20,10);
 		calculadoraDoPedrinho.somar(10,50);
 		calculadoraDoPedrinho.somar(20,10);
-		JOptionPane.showMessageDialog(null, calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
+		JOptionPane.showMessageDialog(null, "O valor da Some é:" +calculadoraDoPedrinho.getValor()); // mostra painel.com resultado da soma 
 
 	}
 }
